@@ -6,8 +6,7 @@ state_viz = "<div class='tableauPlaceholder' id='viz1700928573060' style='positi
 
 html(f"<html>{county_viz}</html>", height=800)
 
-# Blank spaces
-st.title("")
+# Blank space
 st.title("")
 
 html(f"<html>{state_viz}</html>", height=600)
